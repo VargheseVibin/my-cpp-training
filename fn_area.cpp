@@ -2,7 +2,23 @@
 
 using namespace std ;
 
+double calcAreaCircle (double radius) ;
+double calcVolumeCylinder(double radius, double height);
+void areaCircle();
+void volumeCylinder();
+
 const double  PI {3.14159};
+
+
+
+int main () {
+
+    areaCircle();
+    volumeCylinder();
+
+    return 0 ;
+
+}
 
 double calcAreaCircle (double radius) {
     double area {PI*radius*radius};
@@ -31,14 +47,4 @@ void volumeCylinder() {
     cout << "Enter the radius of the height in (cm):" ;
     cin >> height ;
     cout << "The volume of the cylinder is:" << calcVolumeCylinder(radius,height) << " cu.cms" << endl ; 
-}
-
-
-int main () {
-
-    areaCircle();
-    volumeCylinder();
-
-    return 0 ;
-
 }
