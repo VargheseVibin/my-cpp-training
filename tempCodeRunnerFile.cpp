@@ -1,4 +1,12 @@
-   cout << "Enter your full name: ";
-   getline(cin, full_name);
-   
-   cout << "Your full name is: " << full_name << endl;
+    cout << "Welcome to the My Simple application (updated with Functions)" << endl ;
+    cout << "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++" << endl ;
+    cout << endl ;
+    cout << "(P) - Print numbers"  << endl ;
+    cout << "(A) - Add a Number"  << endl ;
+    cout << "(M) - Display the Mean of Numbers"  << endl ;
+    cout << "(S) - Display smallest number"  << endl ;
+    cout << "(L) - Display Largest Number"  << endl ;
+    cout << "(Q) - Quit"  << endl ;
+    cout << endl ; 
+    cout << "Enter your selection:" ; 
+    cin >> sel ; 
