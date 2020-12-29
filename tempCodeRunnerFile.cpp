@@ -1,4 +1,4 @@
-    // while (*scores_ptr!=-1) {
-    //     cout << "Values at location " << scores_ptr << " is:" << *scores_ptr << endl << endl ;;
-    //     scores_ptr++;
+    // for (size_t i=0 ; i<arraySize ; ++i) {
+    //     cout << "At mem location " << myArray << " value is :" << *myArray << endl ;
+    //     myArray++;
     // }
